@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Screen_Sharing_Using_JS</title>
+    <link rel="stylesheet" href="ScreenShare.css">
+</head>
+<body>
+    <div class="container">
+        <h3>Screen Share </h3>
+        <div class="video-container">
+            <video id="screen-preview" autoplay ></video>
+            <button id="startBtn" onclick="startScreenShare()">Start Screen Share</button>
+            <button id="stopBtn" onclick="stopScreenShare()" style="display:none;">Stop Screen Share</button>
+        </div>
+        <p id="error-message" style="color: red;"></p>
+    </div>
+
+    <script src="ScreenShare.js"></script>
+</body>
+</html>
